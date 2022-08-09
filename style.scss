@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.font-display{
+    font-family: KudryashevDisplaySans !important;
+}
+.font-serif{
+    font-family: ISOCTEUR !important;
+}
+
+.main-image{
+    // center image to the viewport
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 10rem;
+    transform: translate(-50%, -50%);
+    
+  .main-image__inner{
+    transition: all 0.5s ease;
+  }
+}
+.main-text{
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    text-align: center;
+    font-size: 10rem;
+    transform: translate(-50%, -50%);
+}
+.text-front{
+    -webkit-text-stroke: 1px #fff;
+    color: transparent;
+}
+.page-item{
+    // border: 1px solid #fff;
+    margin: 5rem auto;
+    // display: block;
+}
+.item-image, .social-link__item{
+    
+        cursor: url("cursor.svg"), auto !important;
+        transition: cursor 0.5s ease;
+        &:hover{
+            cursor: url("cursor.svg"), auto !important;
+            transition: cursor 0.5s ease;
+        }
+        
+}
