@@ -40,10 +40,10 @@
 }
 .item-image, .social-link__item{
     
-        cursor: url("cursor.svg"), auto !important;
+        cursor: url("/cursor.svg"), auto !important;
         transition: cursor 0.5s ease;
         &:hover{
-            cursor: url("cursor.svg"), auto !important;
+            cursor: url("/cursor.svg"), auto !important;
             transition: cursor 0.5s ease;
         }
         
